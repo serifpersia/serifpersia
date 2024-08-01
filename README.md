@@ -1,7 +1,12 @@
-<h1 align="center">Hi 👋, I'm Serif</h1>
+<h1 align="center">
+  
+![serifpersia](https://github.com/user-attachments/assets/cfa6a7cd-7b69-4e1a-ac23-3f64eadcf1cf)
+  
+</h1>
 <h3 align="center">Hobbyist pianist and coder</h3>
 
 ---
+
 
 <p align="center">
 <table align="center">
