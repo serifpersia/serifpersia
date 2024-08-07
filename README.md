@@ -1,7 +1,7 @@
 <h1 align="center">
   
-![serifpersia](https://github.com/user-attachments/assets/cfa6a7cd-7b69-4e1a-ac23-3f64eadcf1cf)
-  
+  ![serifpersia](https://github.com/user-attachments/assets/449c60e8-20e5-4c1a-9cfc-a39f44287381)
+
 </h1>
 <h3 align="center">Hobbyist pianist and coder</h3>
 

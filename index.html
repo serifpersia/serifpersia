@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Scaled ASCII Art</title>
+    <style>
+        body {
+            background-color: black;
+            color: yellow;
+            margin: 0;
+        }
+
+        .text {
+            transform: scale(1.2); /* Scale down to 90% */
+            transform-origin: center top;/* Set the origin for scaling */
+            text-align: center;
+            animation: colorChange 2s infinite;
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: yellow;
+            }
+            50% {
+                color: white;
+            }
+            100% {
+                color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <pre class="text"><code>
+                                                                                                                                                                                            
+                                                                                                                                                                                            
+                                                          iiii     ffffffffffffffff                                                                                 iiii                    
+                                                         i::::i   f::::::::::::::::f                                                                               i::::i                   
+                                                          iiii   f::::::::::::::::::f                                                                               iiii                    
+                                                                 f::::::fffffff:::::f                                                                                                       
+    ssssssssss       eeeeeeeeeeee    rrrrr   rrrrrrrrr  iiiiiii  f:::::f       ffffffppppp   ppppppppp       eeeeeeeeeeee    rrrrr   rrrrrrrrr       ssssssssss   iiiiiii   aaaaaaaaaaaaa   
+  ss::::::::::s    ee::::::::::::ee  r::::rrr:::::::::r i:::::i  f:::::f             p::::ppp:::::::::p    ee::::::::::::ee  r::::rrr:::::::::r    ss::::::::::s  i:::::i   a::::::::::::a  
+ss:::::::::::::s  e::::::eeeee:::::eer:::::::::::::::::r i::::i f:::::::ffffff       p:::::::::::::::::p  e::::::eeeee:::::eer:::::::::::::::::r ss:::::::::::::s  i::::i   aaaaaaaaa:::::a 
+s::::::ssss:::::se::::::e     e:::::err::::::rrrrr::::::ri::::i f::::::::::::f       pp::::::ppppp::::::pe::::::e     e:::::err::::::rrrrr::::::rs::::::ssss:::::s i::::i            a::::a 
+ s:::::s  ssssss e:::::::eeeee::::::e r:::::r     r:::::ri::::i f::::::::::::f        p:::::p     p:::::pe:::::::eeeee::::::e r:::::r     r:::::r s:::::s  ssssss  i::::i     aaaaaaa:::::a 
+   s::::::s      e:::::::::::::::::e  r:::::r     rrrrrrri::::i f:::::::ffffff        p:::::p     p:::::pe:::::::::::::::::e  r:::::r     rrrrrrr   s::::::s       i::::i   aa::::::::::::a 
+      s::::::s   e::::::eeeeeeeeeee   r:::::r            i::::i  f:::::f              p:::::p     p:::::pe::::::eeeeeeeeeee   r:::::r                  s::::::s    i::::i  a::::aaaa::::::a 
+ssssss   s:::::s e:::::::e            r:::::r            i::::i  f:::::f              p:::::p    p::::::pe:::::::e            r:::::r            ssssss   s:::::s  i::::i a::::a    a:::::a 
+s:::::ssss::::::se::::::::e           r:::::r           i::::::if:::::::f             p:::::ppppp:::::::pe::::::::e           r:::::r            s:::::ssss::::::si::::::ia::::a    a:::::a 
+s::::::::::::::s  e::::::::eeeeeeee   r:::::r           i::::::if:::::::f             p::::::::::::::::p  e::::::::eeeeeeee   r:::::r            s::::::::::::::s i::::::ia:::::aaaa::::::a 
+ s:::::::::::ss    ee:::::::::::::e   r:::::r           i::::::if:::::::f             p::::::::::::::pp    ee:::::::::::::e   r:::::r             s:::::::::::ss  i::::::i a::::::::::aa:::a
+  sssssssssss        eeeeeeeeeeeeee   rrrrrrr           iiiiiiiifffffffff             p::::::pppppppp        eeeeeeeeeeeeee   rrrrrrr              sssssssssss    iiiiiiii  aaaaaaaaaa  aaaa
+                                                                                      p:::::p                                                                                               
+                                                                                      p:::::p                                                                                               
+                                                                                     p:::::::p                                                                                              
+                                                                                     p:::::::p                                                                                              
+                                                                                     p:::::::p                                                                                              
+                                                                                     ppppppppp                                                                                              
+                                                                                                                                                                                            
+        </code></pre>
+    </div>
+</body>
+</html>
