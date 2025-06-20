@@ -1,5 +1,5 @@
 <h1 align="center">
-  
+
   ![serifpersia](https://github.com/user-attachments/assets/449c60e8-20e5-4c1a-9cfc-a39f44287381)
 
 </h1>
@@ -7,6 +7,11 @@
 
 ---
 
+## Brief Overview
+
+Welcome to my GitHub profile! I'm serifpersia, an open-source tinkerer creating interactive tech gadgets, MIDI tools, and music-reactive visuals. You can learn more about me, my projects, and see my full website [here](YOUR_MAIN_SITE_URL_HERE).
+
+---
 
 <p align="center">
 <table align="center">
@@ -14,7 +19,7 @@
 <td width="50%" align="center">
   <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=serifpersia&theme=dark&show_icons=true&count_private=true" />
   <br></br>
-  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=serifpersia&theme=dark&hide_border=false" /> 
+  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=serifpersia&theme=dark&hide_border=false" />
 </td>
 <td width="50%" align="center">
   <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=serifpersia&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
@@ -34,7 +39,7 @@
 ---
 
 <h3 align="center">Languages and Tools:</h3>
-<p align="center"> 
+<p align="center">
   <a href="https://microsoft.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/windows8/windows8-original.svg" alt="windows" width="40" height="40"/>
   </a>
@@ -72,3 +77,27 @@
     <img src="https://www.vectorlogo.zone/logos/godotengine/godotengine-icon.svg" alt="godot" width="40" height="40"/>
   </a>
 </p>
+
+---
+
+## Support My Work (ETH)
+
+If you find my projects helpful or enjoy my content, consider supporting my work with an **Ethereum (ETH)** donation. Your contribution helps with development time, hardware costs, and keeping projects open-source.
+
+<p align="center">
+  Eth Address: <code>0x7b02c540c0231Af65EEe0bF23645EE17F64CA37a</code>
+</p>
+
+<div align="center">
+  
+![rec_eth_addr_img](https://github.com/user-attachments/assets/92d76f89-f4ac-4b89-97c4-6ee62877c202)
+  
+</div>
+
+<p align="center">Scan the QR code or copy the address above.</p>
+
+<p align="center">Thank you for your support!</div>
+
+---
+
+<p align="center"> © 2025 serifpersia.
