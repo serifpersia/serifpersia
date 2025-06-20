@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display Scaled ASCII Art</title>
-    <style>
-        body {
-            background-color: black;
-            color: yellow;
-            margin: 0;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>serifpersia</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #eaeaea;
+    }
+    .ascii-art-container {
+        margin-left: auto;
+        margin-right: auto;
+        white-space: pre;
+        font-family: monospace;
+        text-align: center;
+        transform: none;
+        line-height: 1.1;
+        font-size: 0.8rem;
+        animation: colorChange 2s infinite;
+    }
 
-        .text {
-            transform: scale(1.2); /* Scale down to 90% */
-            transform-origin: center top;/* Set the origin for scaling */
-            text-align: center;
-            animation: colorChange 2s infinite;
-        }
+    @keyframes colorChange {
+      0% { color: yellow; }
+      50% { color: white; }
+      100% { color: yellow; }
+    }
 
-        @keyframes colorChange {
-            0% {
-                color: yellow;
-            }
-            50% {
-                color: white;
-            }
-            100% {
-                color: yellow;
-            }
-        }
-    </style>
+    .link-github { color: #60a5fa; }
+    .link-youtube { color: #f87171; }
+    .link-discord { color: #a78bfa; }
+    .link-twitch { color: #d8b4fe; }
+    .link-email { color: #4ade80; }
+
+    .link-github:hover { text-decoration: underline; }
+    .link-youtube:hover { text-decoration: underline; }
+    .link-discord:hover { text-decoration: underline; }
+    .link-twitch:hover { text-decoration: underline; }
+    .link-email:hover { text-decoration: underline; }
+
+  </style>
 </head>
-<body>
-    <div>
-        <pre class="text"><code>
+<body class="font-sans">
+  <header class="text-center py-10">
+    <pre class="ascii-art-container">
                                                                                                                                                                                             
                                                                                                                                                                                             
                                                           iiii     ffffffffffffffff                                                                                 iiii                    
@@ -59,7 +70,74 @@ s::::::::::::::s  e::::::::eeeeeeee   r:::::r           i::::::if:::::::f       
                                                                                      p:::::::p                                                                                              
                                                                                      ppppppppp                                                                                              
                                                                                                                                                                                             
-        </code></pre>
+        </pre>
+    <h1 class="text-4xl font-bold mt-4">serifpersia</h1>
+    <p class="text-lg mt-2 text-yellow-400">Open-source tinkerer.</p>
+    <div class="mt-4 space-x-4">
+      <a href="https://github.com/serifpersia" class="link-github">GitHub</a>
+      <a href="https://youtube.com/@serifpersia" class="link-youtube">YouTube</a>
+      <a href="https://discord.gg/yourdiscord" class="link-discord">Discord</a>
+      <a href="https://twitch.tv/serifpersia" class="link-twitch">Twitch</a>
+      <a href="mailto:ramiserifpersia@gmail.com" class="link-email">Email</a>
     </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 mt-8">
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">Featured Projects</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">PianoLux Arduino</h3>
+          <p class="text-sm mt-2">Piano lighting via MIDI input with arduino.</p>
+          <a href="https://github.com/serifpersia/pianolux-esp32" class="block mt-2 text-yellow-400 hover:underline">GitHub ↗</a>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">PianoLux ESP32</h3>
+          <p class="text-sm mt-2">Piano lighting via MIDI input with esp32.</p>
+          <a href="https://github.com/serifpersia/pianolux-esp32" class="block mt-2 text-yellow-400 hover:underline">GitHub ↗</a>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">PianoLux 3D</h3>
+          <p class="text-sm mt-2">3D visual representation of MIDI inputs using Godot/GDScript. Visual feedback for piano MIDI.</p>
+          <a href="https://github.com/serifpersia/pianolux3D" class="block mt-2 text-yellow-400 hover:underline">GitHub ↗</a>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">fast-midi-jam</h3>
+          <p class="text-sm mt-2">Low-latency C++ MIDI jamming tool for collaborative music sessions.</p>
+          <a href="https://github.com/serifpersia/fast-midi-jam" class="block mt-2 text-yellow-400 hover:underline">GitHub ↗</a>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">scrcpy-desktop</h3>
+          <p class="text-sm mt-2">Desktop interface for scrcpy with streaming overlay support (Reddit/Twitch).</p>
+          <a href="https://github.com/serifpersia/scrcpy-desktop" class="block mt-2 text-yellow-400 hover:underline">GitHub ↗</a>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold">Leap Headtracker</h3>
+          <p class="text-sm mt-2">Head-tracking using Leap Motion or webcam. Sends data to OpenTrack via UDP.</p>
+          <a href="https://github.com/serifpersia/leap-headtracker" class="block mt-2 text-yellow-400 hover:underline">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">About Me</h2>
+      <p class="text-sm">I'm a disabled developer passionate about interactive tech gadgets, MIDI tools, and music-reactive visuals. I'm also a piano player and live piano playing and osu streamer. I share my experiments and builds across GitHub, Twitch, and YouTube.</p>
+    </section>
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">Support My Work</h2>
+      <p class="text-sm mb-4">If you find my projects helpful or enjoy my content, consider supporting my work with an **Ethereum (ETH)** donation. Your contribution helps with development time, hardware costs, and keeping projects open-source.</p>
+      <div class="flex flex-col items-center space-y-4 bg-gray-900 p-6 rounded-lg shadow-lg">
+          <p class="text-base font-mono text-yellow-400 break-all">
+              Eth Address: <code class="block mt-2 break-all">0x7b02c540c0231Af65EEe0bF23645EE17F64CA37a</code>
+          </p>
+          <img src="rec_eth_addr_img.png" alt="Ethereum QR Code" class="w-32 h-32 rounded-md border border-gray-700 p-2">
+          <p class="text-xs text-gray-400">Scan the QR code or copy the address above.</p>
+      </div>
+       <p class="text-sm mt-4 text-gray-400 text-center">Thank you for your support!</p>
+    </section>
+  </main>
+
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    © 2025 serifpersia.
+  </footer>
 </body>
 </html>
