@@ -9,7 +9,7 @@
 
 ## Brief Overview
 
-Welcome to my GitHub profile! I'm serifpersia, an open-source tinkerer creating interactive tech gadgets, MIDI tools, and music-reactive visuals. You can learn more about me, my projects, and see my full website [here](YOUR_MAIN_SITE_URL_HERE).
+Welcome to my GitHub profile! I'm serifpersia, an open-source tinkerer creating interactive tech gadgets, MIDI tools, and music-reactive visuals. You can learn more about me, my projects, and see my full website [here](https://serifpersia.github.io/serifpersia/).
 
 ---
 
